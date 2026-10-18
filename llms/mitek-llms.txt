@@ -1,0 +1,76 @@
+# Mitek Systems
+
+> Mitek Systems is the trusted leader in digital fraud defense, providing AI-driven identity verification, biometric authentication, and fraud detection solutions. More than 7,000 organizations worldwide rely on Mitek to verify identities, prevent fraud, and deliver secure digital experiences. Mitek’s technology safeguards critical digital interactions across the entire customer journey, continuously evaluating identity — from onboarding to login to transaction — using biometrics, device intelligence, and AI.
+
+Mitek was founded in 1986 and is headquartered in San Diego, California. It is publicly traded on NASDAQ under the ticker MITK.
+
+## Products
+
+### Identity
+- [MiVIP – Identity Verification Platform](https://www.miteksystems.com/products/mitek-verified-identity-platform): A unified, no-code platform for identity verification, biometrics, geolocation, and compliance across the full customer journey.
+- [MiPass – Biometric Authentication](https://www.miteksystems.com/products/mipass-biometric-authentication): 4-dimensional biometric authentication using face match, face liveness, voice match, and voice liveness detection.
+- [Digital Fraud Defender](https://www.miteksystems.com/products/digital-fraud-defender): GenAI-powered fraud detection to identify and stop AI-generated threats.
+
+### Check
+- [Check Fraud Defender](https://www.miteksystems.com/products/check-fraud-defender): AI and consortium data-based detection of altered and fraudulent checks across channels.
+- [Mobile Deposit](https://www.miteksystems.com/products/mobile-deposit): The original mobile check deposit solution, with over 8.8 billion checks analyzed.
+- [Check Intelligence](https://www.miteksystems.com/products/check-intelligence): Check data intelligence and analytics.
+- [Positive Pay Plus](https://www.miteksystems.com/products/check-fraud-defender/positive-play-plus): Enhanced altered check detection in real-time.
+
+### Liveness Detection
+- [IDLive Face](https://www.miteksystems.com/products/face-liveness-detection): Passive face liveness detection. Earned top marks in U.S. DHS testing in 2024.
+- [IDLive Doc](https://www.miteksystems.com/products/document-liveness-detection): Document liveness detection to identify spoofed or manipulated identity documents.
+
+## Solutions
+
+### By Use Case
+- [Customer Onboarding](https://www.miteksystems.com/use-cases/customer-onboarding)
+- [Age Verification](https://www.miteksystems.com/use-cases/age-verification)
+- [Compliance / KYC & AML](https://www.miteksystems.com/use-cases/compliance)
+- [In-Person Identity Verification](https://www.miteksystems.com/use-case/in-person-identity-verification)
+- [Passwordless Authentication](https://www.miteksystems.com/use-cases/passwordless)
+- [Reusable Identity](https://www.miteksystems.com/use-cases/reusable-identity)
+- [Right to Work](https://www.miteksystems.com/use-cases/right-to-work)
+
+### By Fraud Type
+- [Template Attack Detection](https://www.miteksystems.com/solutions/template-attack-detection)
+- [Injection Attack Detection](https://www.miteksystems.com/solutions/injection-attack-detection)
+- [Deepfake Attack Detection](https://www.miteksystems.com/solutions/deepfake-attack-detection)
+
+### By Industry
+- [Banking & Financial Services](https://www.miteksystems.com/industry/identity-verification-for-financial-services)
+- [Fintech](https://www.miteksystems.com/industry/identity-verification-for-fintech)
+- [Digital Marketplace](https://www.miteksystems.com/industry/identity-verification-for-the-digital-marketplace)
+- [iGaming & Gambling](https://www.miteksystems.com/industry/identity-verification-for-igaming-gambling)
+
+## Company
+
+- [About Mitek](https://www.miteksystems.com/about): Company history, mission, leadership, and milestones.
+- [Careers](https://www.miteksystems.com/careers): Open positions and culture.
+- [Press Releases](https://www.miteksystems.com/press-releases): Latest news and announcements.
+- [Investor Relations](https://investors.miteksystems.com): Financial information and executive team.
+- [Partners](https://www.miteksystems.com/partners): OEM, reseller, referral, and integration partnership programs.
+- [Contact](https://www.miteksystems.com/contact): Sales and support contact information. Phone: +1 (619) 269-6800.
+
+## Resources
+
+- [Blog](https://www.miteksystems.com/blog)
+- [Resource Library](https://www.miteksystems.com/resource-library): White papers, research reports, data sheets, and on-demand webinars.
+- [Glossary](https://www.miteksystems.com/glossary)
+- [Events & Webinars](https://www.miteksystems.com/events)
+- [Support](https://www.miteksystems.com/support)
+
+## Key Facts
+
+- Founded: 1986
+- Headquarters: 600 B Street, Suite 100, San Diego, California 92101
+- NASDAQ ticker: MITK
+- Customers: 7,000+ organizations worldwide
+- Identities verified: 1.3 billion+
+- Mobile checks analyzed: 8.8 billion+
+- Certifications: SOC 2, ISO/IEC 27001
+
+## Legal
+
+- [Terms and Conditions](https://www.miteksystems.com/terms-and-conditions)
+- [Privacy Policy](https://www.miteksystems.com/privacy-policy)

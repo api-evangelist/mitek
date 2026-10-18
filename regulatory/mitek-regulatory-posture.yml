@@ -1,0 +1,124 @@
+generated: '2026-10-18'
+method: searched
+probe: true
+source:
+- https://www.miteksystems.com/privacy-policy
+- https://www.miteksystems.com/legal/terms/product-terms-and-conditions
+- https://docs.us.mitekcloud.com/
+notes: >-
+  The pre-flight dossier carried no legal_pages, so the privacy policy, the terms pages listed in
+  the site's sitemap and the API reference were fetched directly. Conventional paths on
+  www.miteksystems.com (/accessibility, /legal/subprocessors, /subprocessors, /legal/dpa, /trust,
+  /security, /transparency, /ai, /privacy-request, /cookie-policy, /legal) all returned 404, and the
+  sitemap lists no trust, subprocessor, DPA, accessibility or AI-disclosure page. The privacy policy
+  says Mitek and the Site "do not recognize DNT" and does not mention Global Privacy Control, so no
+  global_privacy_control signal is recorded. Section 7 is a COPPA-style statement that the services
+  are not aimed at children, not an age-assurance mechanism, so no age_assurance signal is recorded.
+signals:
+  data_subject_request:
+    url: https://www.miteksystems.com/privacy-policy
+    section: 6. What are my choices concerning my personal information?
+    note: >-
+      Individuals can ask for access, deletion, restriction, correction and portability to another
+      controller by contacting Mitek (there is no form or API). Mitek aims to respond within one calendar
+      month. Section 9 adds request-to-know, correction and deletion rights for California, Colorado,
+      Connecticut and Virginia, sent by email. Section 8 says Mitek's clients handle requests about data
+      they transferred to Mitek.
+    stated_response_time: within one calendar month of receipt of the request
+    evidence:
+    - source: https://www.miteksystems.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "If you would like to request a copy of your personal information being held by us, or request that it is deleted or restricted or to update and/or correct your personal information or request that we provide a copy to another data controller of your personal information that you have provided to us, please contact us in the Contacting Us section below."
+    - source: https://www.miteksystems.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "We will aim to respond to your request within one calendar month of receipt of the request."
+    - source: https://www.miteksystems.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "Our clients are responsible for managing any request made by their employees or customers regarding access to and rectification of their personal information that is transferred to us."
+  data_retention:
+    url: https://www.miteksystems.com/privacy-policy
+    section: 10. Biometric Information Retention Policy (Illinois Residents and Others)
+    note: >-
+      General personal data is kept only as long as the purpose requires, plus a period for legal
+      reasons. Biometric data has a BIPA schedule: it is destroyed once its purpose is met or within 3
+      years of the last interaction, whichever comes first, and Mitek aims for about 90 days when no
+      fraud is found. The MiPass API reference says each enrolled biometric sample gets an expiry date
+      based on the customer's own retention policy.
+    stated_period: within 3 years of your last interaction with our client, whichever occurs first
+    evidence:
+    - source: https://www.miteksystems.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "Personal information that we collect, access or process will be retained only as long as necessary for the fulfilment of the purposes for which it was collected and for a period of time afterwards for legal purposes."
+    - source: https://www.miteksystems.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "Specifically, Mitek will permanently destroy your biometric data, if any such data is in its possession, (1) when the initial purpose for collecting or obtaining such data has been satisfied, or (2) within 3 years of your last interaction with our client, whichever occurs first."
+    - source: https://www.miteksystems.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "Where actually in our possession and subject to the direction of our clients, Mitek will strive to retain your biometric data only for as long as necessary to detect fraud and will then seek to permanently destroy such data within approximately 90 days where no fraud had been detected."
+    - source: https://docs.us.mitekcloud.com/
+      http_status: 200
+      fetched: '2026-10-18'
+      section: MiPass - Enroll
+      quote: "Upon enrollment, each individual biometric sample is assigned an expiration date in accordance with the customer’s data retention policy, after which time the data is irrevocably deleted."
+  data_residency:
+    url: https://www.miteksystems.com/privacy-policy
+    section: 11. Cross-border Transfer of Personal Information
+    offered: false
+    note: >-
+      This is a cross-border transfer disclosure, not a promise to keep data in one region. Personal
+      data, including data from Canada, the EEA, the UK and Switzerland, may be transferred to the
+      United States or other countries. Mitek relies on certification under the EU-US Data Privacy
+      Framework (with the UK Extension) and the Swiss-US DPF. No customer-selectable data region is
+      documented on the pages read. The API reference host is docs.us.mitekcloud.com, but
+      docs.eu.mitekcloud.com did not resolve (HTTP 000), so no region list is recorded.
+    evidence:
+    - source: https://www.miteksystems.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "Mitek (including A2IA, Corp., IDRnD, Inc., our subsidiaries) is certified under the EU-US Data Privacy Framework (including the UK Extension to the EU-US DPF) and the Swiss-US Data Privacy Framework (the “DPF”), and our full Data Privacy Framework Policy is available below."
+    - source: https://www.miteksystems.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "Regardless, you understand that your personal information may be transferred, processed and stored outside of your country of residence, and therefore may be available to government authorities under lawful orders and laws applicable in such foreign jurisdictions."
+  exit_assistance:
+    url: https://www.miteksystems.com/legal/terms/product-terms-and-conditions
+    section: Watchlists (Monitoring) - VIP-000243
+    offered: false
+    note: >-
+      This clause covers only the Watchlist (Monitoring) product. It puts the burden of getting data out
+      on the customer: data must be extracted before the order ends, and when the order expires all
+      Records are deleted. It is an exit term, not a promise of assistance or a data-export tool.
+    evidence:
+    - source: https://www.miteksystems.com/legal/terms/product-terms-and-conditions
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "Customer shall extract any data it desires to retain relating to Records prior to: (i) deletion of that Record; or (ii) the expiry or termination of the relevant order schedule. Any failure to do so will result in such data being lost."
+    - source: https://www.miteksystems.com/legal/terms/product-terms-and-conditions
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: "Expiry or termination of this Order will result in all Records and associated data being deleted and customer’s account being closed."
+probes:
+- {url: https://www.miteksystems.com/privacy-policy, http_status: 200}
+- {url: https://www.miteksystems.com/terms-and-conditions, http_status: 200}
+- {url: https://www.miteksystems.com/legal/terms, http_status: 200}
+- {url: https://www.miteksystems.com/legal/terms/agreements, http_status: 200}
+- {url: https://www.miteksystems.com/legal/terms/product-terms-and-conditions, http_status: 200}
+- {url: https://docs.us.mitekcloud.com/, http_status: 200}
+- {url: https://docs.eu.mitekcloud.com/, http_status: 0}
+- {url: https://www.miteksystems.com/accessibility, http_status: 404}
+- {url: https://www.miteksystems.com/legal/subprocessors, http_status: 404}
+- {url: https://www.miteksystems.com/subprocessors, http_status: 404}
+- {url: https://www.miteksystems.com/legal/dpa, http_status: 404}
+- {url: https://www.miteksystems.com/trust, http_status: 404}
+- {url: https://www.miteksystems.com/security, http_status: 404}
+- {url: https://www.miteksystems.com/transparency, http_status: 404}
+- {url: https://www.miteksystems.com/ai, http_status: 404}
+- {url: https://www.miteksystems.com/privacy-request, http_status: 404}
+- {url: https://www.miteksystems.com/cookie-policy, http_status: 404}
+- {url: https://www.miteksystems.com/legal, http_status: 404}

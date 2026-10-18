@@ -1,0 +1,33 @@
+generated: '2026-10-18'
+method: searched
+source: https://docs.us.mitekcloud.com/
+authentication:
+  style: oauth2-client-credentials
+  token_location: Authorization header
+  token_format: Bearer token
+  token_lifetime: 5 minutes
+
+idempotency:
+  coverage: none
+  note: No idempotency mechanism documented
+
+pagination:
+  style: none
+  note: No pagination conventions documented
+
+field_limits:
+  - field: documentNumber
+    limit: 500 characters
+  - field: ocrDocumentNumber
+    limit: 500 characters
+  - field: images
+    limit: 2 images per document
+
+error_envelope:
+  format: http-status-codes
+  note: Uses standard HTTP status codes with error details in response body
+
+versioning:
+  scheme: uri-versioning
+  current: v2
+  note: API is versioned as "Mitek Identity Cloud API V2"

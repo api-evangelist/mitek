@@ -1,0 +1,16 @@
+generated: '2026-10-18'
+method: none
+source:
+- https://zapier.com/apps/mitek/integrations
+- https://n8n.io/integrations/mitek/
+- https://composio.dev/toolkits/mitek
+- https://monid.ai/tools/mitek
+checked:
+- https://composio.dev/toolkits/mitek
+- https://monid.ai/tools/mitek
+- https://n8n.io/integrations/mitek/
+- https://zapier.com/apps/mitek/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

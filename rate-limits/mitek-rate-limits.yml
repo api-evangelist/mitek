@@ -1,0 +1,6 @@
+generated: '2026-10-18'
+method: searched
+source: https://docs.us.mitekcloud.com/
+name: Mitek rate limits
+note: No rate limits documented in the Mitek Identity Cloud API documentation
+limits: []

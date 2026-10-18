@@ -1,0 +1,84 @@
+generated: '2026-10-18'
+method: searched
+source: https://github.com/Mitek-Systems, https://registry.npmjs.org/-/v1/search?text=mitek
+packages:
+  - name: MiSnap-iOS
+    registry: github
+    url: https://github.com/Mitek-Systems/MiSnap-iOS
+    language: Swift
+    official: true
+    version: null
+    published: null
+    note: iOS SDK for MiSnap document capture
+    
+  - name: MiSnap-Android
+    registry: github
+    url: https://github.com/Mitek-Systems/MiSnap-Android
+    language: Java
+    official: true
+    version: null
+    published: null
+    note: Android SDK for MiSnap document capture
+    
+  - name: MiSnap-Web
+    registry: github
+    url: https://github.com/Mitek-Systems/MiSnap-Web
+    language: JavaScript
+    official: true
+    version: null
+    published: null
+    note: Web SDK for MiSnap document capture
+    
+  - name: MiVIP-iOS
+    registry: github
+    url: https://github.com/Mitek-Systems/MiVIP-iOS
+    language: Swift
+    official: true
+    version: null
+    published: null
+    note: iOS SDK for MiVIP identity verification
+    
+  - name: MiVIP-Android
+    registry: github
+    url: https://github.com/Mitek-Systems/MiVIP-Android
+    language: Java
+    official: true
+    version: null
+    published: null
+    note: Android SDK for MiVIP identity verification
+    
+  - name: '@okode/capacitor-mitek'
+    registry: npm
+    url: https://www.npmjs.com/package/@okode/capacitor-mitek
+    language: TypeScript
+    official: false
+    version: null
+    published: null
+    note: Third-party Capacitor plugin for Mitek
+    
+  - name: cordova-plugin-mitek-misnap
+    registry: npm
+    url: https://www.npmjs.com/package/cordova-plugin-mitek-misnap
+    language: JavaScript
+    official: false
+    version: null
+    published: null
+    note: Third-party Cordova plugin for MiSnap
+    
+  - name: cordova-plugin-mitek-android
+    registry: npm
+    url: https://www.npmjs.com/package/cordova-plugin-mitek-android
+    language: Java
+    official: false
+    version: null
+    published: null
+    note: Third-party Cordova plugin for Android
+    
+  - name: cordova-plugin-mitek-ios
+    registry: npm
+    url: https://www.npmjs.com/package/cordova-plugin-mitek-ios
+    language: Objective-C
+    official: false
+    version: null
+    published: null
+    note: Third-party Cordova plugin for iOS

@@ -1,0 +1,30 @@
+generated: '2026-10-18'
+method: searched
+source: https://docs.us.mitekcloud.com/#authentication-error-responses
+format: application/json
+envelope:
+  error: string
+  error_description: string
+  message: string
+
+problems:
+  - status: 400
+    title: Bad Request
+    type: invalid_request
+    description: The request is missing a required parameter, includes an invalid parameter value, includes a parameter more than once, or is otherwise malformed.
+    
+  - status: 401
+    title: Unauthorized
+    type: invalid_client
+    description: Client authentication failed (e.g., unknown client, no client authentication included, or unsupported authentication method).
+    
+  - status: 403
+    title: Forbidden
+    type: invalid_scope
+    description: The requested scope is invalid, unknown, malformed, or exceeds the scope granted by the resource owner.
+    
+  - status: 500
+    title: Internal Server Error
+    type: internal_error
+    description: An internal error has occurred. Please try again.
+    remediation: Retry the request after a short delay.

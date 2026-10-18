@@ -1,0 +1,42 @@
+name: Mitek Documentation MCP Server
+description: >-
+  MCP endpoint served at /mcp on Mitek's ReadMe-hosted developer documentation
+  (docs.miteksystems.com, which hosts the MiVIP docs; docs-access.miteksystems.com
+  answers the same way). An anonymous JSON-RPC initialize POST returns HTTP 401
+  with `WWW-Authenticate: Bearer realm="mcp"` and error -32001 "Authorization required".
+  Its CORS headers name ReadMe (x-readme-project-id, x-readme-conversation-id), so this
+  is the documentation MCP that ReadMe generates for the docs project, not an MCP
+  server for the Identity Cloud API. The docs themselves need a Mitek login. No tool
+  list is published, and tools/list cannot be reached without credentials, so no tool
+  names are recorded here.
+generated: '2026-10-18'
+method: probed
+source: https://docs.miteksystems.com/mcp
+status: gated
+deployment:
+  mode: remote
+  endpoint: https://docs.miteksystems.com/mcp
+  auth: unknown
+  verified: probed
+endpoints:
+- url: https://docs.miteksystems.com/mcp
+  status: 401
+  www_authenticate: Bearer realm="mcp"
+  probed: '2026-10-18'
+- url: https://docs-access.miteksystems.com/mcp
+  status: 401
+  www_authenticate: Bearer realm="mcp"
+  probed: '2026-10-18'
+control:
+  note: The pre-flight control path on the same hosts returned 404, so the 401 is specific to /mcp.
+oauth_protected_resource:
+  - url: https://docs.miteksystems.com/.well-known/oauth-protected-resource
+    status: 404
+  - url: https://docs.miteksystems.com/.well-known/oauth-protected-resource/mcp
+    status: 404
+platform: ReadMe (inferred from x-readme-* CORS headers on the /mcp response)
+tools: []
+tools_note: >-
+  The tool set is unknown. tools/list is behind authentication, and Mitek publishes
+  no MCP tool table. No official MCP server for the Mitek Identity Cloud API
+  (docs.us.mitekcloud.com/mcp returned 404) was found.

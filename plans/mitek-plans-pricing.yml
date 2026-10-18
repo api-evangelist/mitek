@@ -1,0 +1,27 @@
+generated: '2026-10-18'
+method: searched
+source: https://www.miteksystems.com/products/biometric-authentication/plans
+name: Mitek pricing
+audience: business-product
+pricing_basis: usage-other
+published: false
+delivery:
+  delivery: managed
+  delivery_evidence: Hosted SaaS platform
+plans:
+  - name: Starter plan
+    description: Pay-per-authentication with flexible, usage-based pricing. Pay only for what you use. Perfect for lower frequency implementations such as pilots, startups, using biometrics exclusively for high-risk transactions, or organizations with seasonal or variable needs.
+    price_text: Contact us
+    features:
+      - No user minimum required
+      - One-time enrollment fee per user
+      - Annual per user fee
+      - Low per-transaction fee
+  - name: Unlimited
+    description: Unlimited authentications with predictable cost. Authenticate without limits. Ideal for high frequency, multi-purpose biometric authentication in use cases like secure account access, daily transactions, step-up authentication, service expansions and more.
+    price_text: Contact us
+    features:
+      - No user minimum required
+      - One-time enrollment fee per user
+      - Annual per-user fee
+      - Unlimited transactions per user

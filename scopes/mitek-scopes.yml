@@ -1,0 +1,9 @@
+generated: '2026-10-18'
+method: searched
+source: https://docs.us.mitekcloud.com/#authentication
+docs: https://docs.us.mitekcloud.com/#authentication
+scopes:
+  - scope: standard.scope
+    description: Standard scope for basic API access
+  - scope: additional.scope
+    description: Additional scope for extended API access

@@ -1,0 +1,23 @@
+generated: '2026-10-18'
+method: searched
+source: https://docs.us.mitekcloud.com/
+standards:
+  - id: oauth2
+    conforms: true
+    evidence: Uses OAuth 2.0 client credentials flow for authentication
+    
+  - id: jwt
+    conforms: true
+    evidence: Uses JWT tokens for authorization
+    
+  - id: openid
+    conforms: true
+    evidence: Uses OpenID for authentication
+    
+  - id: http-status-codes
+    conforms: true
+    evidence: Uses standard HTTP status codes for error responses
+    
+  - id: json
+    conforms: true
+    evidence: Uses JSON for request/response format

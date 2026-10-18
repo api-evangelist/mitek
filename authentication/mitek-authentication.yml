@@ -1,0 +1,20 @@
+generated: '2026-10-18'
+method: searched
+source: https://docs.us.mitekcloud.com/#authentication
+docs: https://docs.us.mitekcloud.com/#authentication
+schemes:
+  - type: oauth2
+    name: OAuth 2.0 Client Credentials
+    description: Mitek uses OAuth 2.0 with JWT tokens for authorization. The client credential flow is used for server-to-server communication where a client_id and client_secret are issued. Tokens are valid for 5 minutes from issuance.
+    flow: client_credentials
+    token_url: /connect/token
+    scopes:
+      - standard.scope
+      - additional.scope
+    documentation: |
+      Token retrieval requires a basic POST request to our OAuth 2.0 based authentication server.
+      Mitek recommends that developers pro-actively refresh tokens to ensure a valid token is always available for submission to the API.
+      
+      In the authentication request, scopes must be included that the token will provide permissions to access.
+      The token generated will only provide access to the specific operations for which the scope was requested.
+      Mitek recommends that the token is requested with only the scopes that are minimally required to perform a specific operation.

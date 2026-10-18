@@ -1,0 +1,14 @@
+generated: '2026-10-18'
+method: searched
+source: https://docs.us.mitekcloud.com/
+versioning:
+  scheme: uri-versioning
+  current: v2
+  documented_at: https://docs.us.mitekcloud.com/
+
+deprecation:
+  policy: not-documented
+  note: No deprecation policy documented in the API documentation
+
+status_page: null
+note: No status page or SLA documented in the API documentation
