@@ -25,3 +25,21 @@ plans:
       - One-time enrollment fee per user
       - Annual per-user fee
       - Unlimited transactions per user
+x-canonical:
+  generated: '2026-10-18'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Starter plan
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Unlimited
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
