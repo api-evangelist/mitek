@@ -49,3 +49,35 @@
     detected: '2026-10-20'
   status: not-a-workflow
   arazzo: null
+- slug: mitek-nist-frte-fate-face-recognition-technology-evaluation
+  label: NIST FRTE/FATE (face recognition technology evaluation)
+  partner_name: NIST FRTE/FATE (face recognition technology evaluation)
+  category: biometric algorithm evaluation
+  type: register
+  channel: standard-directory
+  evidence: https://pages.nist.gov/frvt/html/frvt11.html
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: 'NIST FRTE / FATE (pages.nist.gov/frvt: 1:1, 1:N, age estimation, paperless travel, twins)'
+    standard: NIST FRTE/FATE
+    spec_file: null
+    role: nist-frte-participant
+    registered_name: Mitek Systems
+    registered_country: GB
+    register_id: https://pages.nist.gov/frvt/html/frvt11.html
+    matched_domain: miteksystems.com
+    matched_by: domain
+    identity: wikidata Q54958689 'Mitek Systems' P856 https://www.miteksystems.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    tracks:
+    - frte-1to1
+    signals:
+      best_1to1_rank: 95
+      top10_1to1: false
+    signal_note: 'participation only: NIST evaluates, it does not certify. A top-tier rank is a signal recorded
+      for context, never certified_products, and algorithm / track counts are never counted'
+    detected_by: sweep-biometrics-testing.py
+    detected: '2026-10-20'
+  status: not-a-workflow
+  arazzo: null
