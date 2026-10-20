@@ -1,16 +1,70 @@
 generated: '2026-10-18'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/mitek/integrations
 - https://n8n.io/integrations/mitek/
 - https://composio.dev/toolkits/mitek
 - https://monid.ai/tools/mitek
 checked:
+- https://aws.amazon.com/marketplace/
 - https://composio.dev/toolkits/mitek
+- https://kantarainitiative.org/trust-status-list/
 - https://monid.ai/tools/mitek
+- https://msb.fincen.gov/
 - https://n8n.io/integrations/mitek/
+- https://www.access-dvs-register.service.gov.uk/register/download-register
 - https://zapier.com/apps/mitek/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-fifspojl2xz5u
+  listing_count: 2
+  apps:
+  - Mobile Verify®
+  - Mitek's Check Fraud Defender
+  seller_name: Mitek Systems
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-19'
+- partner_name: UK DVS register (DSIT)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.access-dvs-register.service.gov.uk/register/service-details?serviceId=316
+  category: Digital identity verification
+  contract_reference:
+    register: UK digital verification services register (DIATF; access-dvs-register.service.gov.uk)
+    spec_file: null
+    standard: UK DIATF (digital verification services)
+    role: dvs-registered
+    registered_name: Mitek Systems inc.
+    trading_name: Hooyu Ltd
+    register_id: Mitek Systems inc.
+    website: www.miteksystems.com
+    matched_domain: miteksystems.com
+    matched_by: domain
+    certified_products:
+    - product: Identity service
+      newest_expiry: '2029-10-06'
+      lapsed: false
+    dvs_services:
+    - MiVIP
+    conformity_assessment_bodies:
+    - Kantara
+    signal_note: certified_products = one entry per ROLE certified (identity / attribute / orchestration...), lapsed
+      when every certificate for the role has expired; services and schemes are context
+    detected_by: sweep-regtech-aml.py
+    detected: '2026-10-20'
+  detected_by: sweep-regtech-aml.py
+  first_seen: '2026-10-20'
 templates: []
