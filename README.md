@@ -64,5 +64,46 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Mitek is a company surfaced via the API Evangelist harvest backlog (source: kin-score-markets) and added to the network as a stub for full-pipeline profiling.
-- https://miteksystems.com
+Mitek (Mitek Systems, Inc.) is a digital identity and fraud defense company whose platform lets businesses know their customers, verify transactions and grow securely with identity verification and authentication in a single platform. Its products include MiVIP, an all-in-one digital identity verification solution for managing customer identities, combating fraud and meeting regulatory compliance, and Check Fraud Defender, an AI-powered, cloud-hosted, consortium-based check fraud platform including the MiControl fraud management console, alongside biometric authentication plans.
+
+**Areas:** Company · Identity Verification · Fraud Prevention · Biometric Authentication · KYC · Check Fraud · Financial Services
+
+## Mitek on APIs.io
+
+Everything profiled for Mitek is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mitek/](https://apis.io/providers/mitek/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- Mitek Identity Cloud API — Mitek Identity Cloud API V2 - REST API for identity document verification (verify dossier, document extraction, AAMVA checks, German eID), biometric…
+- Mitek MiVIP — MiVIP all-in-one digital identity verification platform; its developer documentation on docs.miteksystems.com (ReadMe) requires a Mitek login (401 redirect…
+
+_These APIs get their own pages on APIs.io at the next catalog build, and this README is re-rendered with links when they do._
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://miteksystems.com)
+- [Documentation](https://docs.miteksystems.com/)
+- [Pricing](https://www.miteksystems.com/products/biometric-authentication/plans)
+- [Support](https://www.miteksystems.com/support)
+- [Blog](https://www.miteksystems.com/blog)
+- [Terms of service](https://www.miteksystems.com/terms-and-conditions)
+- [Privacy policy](https://www.miteksystems.com/privacy-policy)
+- [GitHub](https://github.com/Mitek-Systems)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/mitek/](https://apis.io/providers/mitek/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mitek: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mitek/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
